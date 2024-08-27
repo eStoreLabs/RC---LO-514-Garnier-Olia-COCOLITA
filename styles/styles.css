@@ -10,7 +10,7 @@ body {
   font-family: "Roboto Condensed", sans-serif;
   font-optical-sizing: auto;
   background-color: #000000;
-  max-width: 998px;
+  max-width: 1300px;
   margin: auto;
   color: #FFFFFF;
 }
@@ -60,11 +60,11 @@ body {
   margin-bottom: -18px;
 }
 #es-rc #es-rc-content .es-kv__right--bgWrapper {
-  background: url("/images/sunflower.png");
+  background: url("../images/sunflower.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-block: 24px;
+  padding-block: 73px;
   padding-inline: 16px;
 }
 #es-rc #es-rc-content .es-kv__logo--olia {
@@ -76,7 +76,6 @@ body {
 #es-rc #es-rc-content .es-kv__text {
   text-transform: uppercase;
   color: #FFFFFF;
-  text-align: justify;
   margin-block: 50px;
   max-width: 260px;
 }
@@ -139,7 +138,7 @@ body {
   scale: 1.1;
 }
 #es-rc #es-rc-content .es-features {
-  background-image: url("/images/sunflower_bg.png");
+  background-image: url("../images/sunflower_bg.png");
   background-position: top right;
   background-size: contain;
   background-repeat: no-repeat;
@@ -321,7 +320,7 @@ body {
 
 @media (min-width: 360px) {
   #es-rc #es-rc-content .es-kv__banner {
-    font-size: 26px;
+    font-size: 24px;
   }
   #es-rc #es-rc-content .es-safe__textCtn {
     font-size: 32px;
@@ -334,13 +333,23 @@ body {
   }
 }
 @media (min-width: 440px) {
+
   #es-rc #es-rc-content .es-kv__banner {
-    font-size: 34px;
+    font-size: 32px;
   }
   #es-rc #es-rc-content .es-kv__packWrapper {
     display: flex;
     height: 380px;
   }
+
+  #es-rc #es-rc-content .es-kv__title {
+    font-size: 34px;
+    font-weight: 700;
+  }
+  #es-rc #es-rc-content .es-kv__descr {
+    font-size: 24px;
+  }
+
   #es-rc #es-rc-content .es-kv__text {
     margin-left: 50px;
     margin-top: 85px;
@@ -393,7 +402,7 @@ body {
   }
   #es-rc #es-rc-content .es-kv__text {
     margin-left: 6px;
-    margin-top: 105px;
+    margin-top: 54px;
     width: 50%;
   }
   #es-rc #es-rc-content .es-kv__packshotCtn img {
@@ -546,13 +555,18 @@ body {
     margin: unset;
   }
 }
+
+@media (min-width: 880px) {
+
+
+}
 @media (min-width: 880px) {
   #es-rc #es-rc-content .es-kv__text {
     margin-left: 35px;
     margin-top: 94px;
   }
   #es-rc #es-rc-content .es-kv__title {
-    font-size: 34px;
+    font-size: 32px;
   }
   #es-rc #es-rc-content .es-kv__descr {
     font-size: 22px;
@@ -591,7 +605,7 @@ body {
   #es-rc #es-rc-content .es-package__Ctn::after {
     position: absolute;
     content: "";
-    background: url(/images/droop.png);
+    background: url(../images/droop.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 25%;
@@ -666,4 +680,51 @@ body {
   #es-rc #es-rc-content .es-colors__descr {
     font-size: 20px;
   }
-}/*# sourceMappingURL=styles.css.map */
+}
+@media (min-width: 1050px) {
+  #es-rc #es-rc-content .es-kv__logoCtn img {
+    max-width: 460px;
+  }
+  #es-rc #es-rc-content .es-kv__logo--olia {
+    max-width: 280px;
+    transform: translate(-38%, -50px);
+  }
+  #es-rc #es-rc-content .es-kv__banner {
+    font-size: 35px;
+  }
+  #es-rc #es-rc-content .es-kv__text {
+    margin-left: 87px;
+    margin-top: 60px;
+  }
+  #es-rc #es-rc-content .es-kv__title {
+    font-size: 38px;
+  }
+  #es-rc #es-rc-content .es-kv__descr {
+    font-size: 28px;
+  }
+  #es-rc #es-rc-content .es-kv__packshotCtn::before {
+    width: 200px;
+    height: 150px;
+  }
+  #es-rc #es-rc-content .es-kv__packshotCtn {
+    max-height: 349px;
+    max-width: 192px;
+  }
+  #es-rc #es-rc-content .es-safe__textCtn {
+    font-size: 38px;
+  }
+
+  #es-rc #es-rc-content .es-features__Ctn {
+    margin-top: 60px;
+  }
+
+  #es-rc #es-rc-content .es-use__Ctn {
+    gap: 73px;
+  }
+  #es-rc #es-rc-content .es-use__single {
+    max-width: 210px;
+  }
+  #es-rc #es-rc-content .es-footer {
+    margin-top: 50px;
+  }
+}
